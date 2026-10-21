@@ -1828,7 +1828,7 @@ dependencies = [
  "url",
  "urlencoding",
  "uuid",
- "zama-sdk",
+ "zama_sdk",
 ]
 
 [[package]]
@@ -9337,9 +9337,10 @@ dependencies = [
 ]
 
 [[package]]
-name = "zama-sdk"
-version = "3.6.0"
-source = "git+https://github.com/zama-ai/sdk?rev=3858a8add72bd014db99e056757ddb897495feb7#3858a8add72bd014db99e056757ddb897495feb7"
+name = "zama_sdk"
+version = "3.8.0-beta.5"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "450182048d51c4e1217bacf1c5446dc92c3bacd2b12b51b46ead2481d7764cfd"
 dependencies = [
  "alloy-primitives",
  "anyhow",
